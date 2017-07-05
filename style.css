@@ -1,6 +1,11 @@
-body{
+body,html {
 	/*background-image:url("logo-dark.svg.png");
 	background-size:100%;*/
+	background-color:#000000 !important;
+	color:white !important;
+	font-family: 'Electrolize', sans-serif !important;
+	height:100%;
+	width:100%;
 }
 .container-fluid h1{
 		font-family: 'Orbitron', sans-serif;
