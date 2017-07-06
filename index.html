@@ -10,6 +10,7 @@
 <link rel="icon" href="favicon.ico" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
 <script>
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -27,7 +28,7 @@ $(document).ready(function(){
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
       $('html, body').animate({
         scrollTop: $(hash).offset().top
-      }, 800, 'swing', function(){
+      }, 800, 'easeInOutExpo', function(){
    
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
@@ -42,11 +43,60 @@ $(document).ready(function(){
 <center>
 <h1>REALLY AWESOME SPACE MISSIONS</h1>
 <img src="logo-bright.svg.png" alt="" style="width:40%" /><br />
-<a href="#down"><img src="arrow.png" alt="" width="100" /></a>
+<a href="#about"><img src="arrow.png" alt="" width="100" /></a>
 </center>
 </div>
-<div class="container" style="min-height:100%">
-<h1 id="down">About RASM</h1>
+<div class="container" id="about" style="min-height:100%">
+<h1>About RASM</h1>
+<h3>What is RASM?</h3>
+<p>Really Awesome Space Missions are really awesome interactive simulations of space missions. RASM is similar to Star Trek or Star Wars, except instead of Captain Kirk or Han Solo, it's you in the pilot seat. Simulations include a lot of really awesome things - intense music and sound effects, science-fiction-style command stations, and complex simulation software.</p>
+<h3>How is RASM different than other "space centers"?</h3>
+<p>RASM differs from other space simulation centers in several key areas:</p>
+<ul>
+<li>RASM uses much more sophisticated software than other space centers.</li>
+<ul>
+<li>Really awesome missions require really awesome software. RASM software is built from the ground up to be really awesome - from things like advanced physical simulation to physically accurate ship armour.</li>
+<li>RASM is semi-automatic, which means that simulations run smoother and seem more real.</li>
+</ul>
+<li>RASM uses technologies and concepts that are based in reality.</li>
+<ul>
+<li>Warp drive and transporters are mostly imaginative. RASM chooses to use technologies like ion boosters, nuclear generators, and shuttles, which are scientifically accurate.</li>
+<li>Learning about technologies that already exist (at least in a prototype form) is more educational and beneficial than learning about conceptual technologies.
+</ul>
+<li>RASM is portable and cost-effective.</li>
+<ul>
+<li>RASM is based around a portable canopy system that can be set up anywhere with power available. RASM can come to you!</li>
+<li>RASM is much less expensive than other space centers. We believe in making it easier for everyone to experience Really Awesome Space Missions.
+</ul>
+<li>RASM supports the community.</li>
+<ul>
+<li>RASM can sponsor school or community clubs or teams, with a lowered price and part of the proceeds going directly to the club or team.</li>
+<li>A part of the proceeds from every RASM mission goes to CODE.org, an organization dedicated to helping students to learn computer science.</li>
+</ul>
+</ul>
+<h3>What does a project like RASM require?</h3>
+<p>Really awesome space missions require both really awesome advanced hardware and really awesome software. Here are some examples of what RASM needs to provide you with the best experience possible.</p>
+<ul>
+<li>Advanced sound systems</li>
+<li>High quality, professional graphics</li>
+<li>Intense music in a lot of styles</li>
+<li>Complex programming, and a lot of it (more than 10,000 lines of careful code)</li>
+<li>Low profile, discrete GPUs</li>
+<li>LCDs</li>
+<li>High quality data processors</li>
+<li>Comfortable seating and tables</li>
+<li>Power cables and extension cords</li>
+<li>Canopy for housing</li>
+<li>Large projector</li>
+</ul>
+<center><a href="#history"><img src="arrow.png" alt="" width="100" /></a></center>
+</div>
+<div class="container" id="history" style="min-height:100%">
+<h1>RASM's History</h1>
+<center><a href="#purpose"><img src="arrow.png" alt="" width="100" /></a></center>
+</div>
+<div class="container" id="purpose" style="min-height:100%">
+<h1>RASM's Purpose</h1>
 </div>
 </body>
 </html>
